@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">ShopLogo</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Product Section -->
+    <div class="product-container">
+        <div class="product-images">
+            <div class="slider">
+                <img src="image\image1.webp" class="active" alt="Product Image 1">
+                <img src="image\image2.webp" alt="Product Image 2">
+                <img src="image\image3.webp" alt="Product Image 3">
+            </div>
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+        
+        <div class="product-details">
+            <h1>Nike Air Force 1 Low '07 LV8</h1>
+            <p class="price">$79.99</p>
+            <p class="description">
+                These sneakers are designed for comfort and style. Perfect for everyday wear with breathable material and a durable sole.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="reviews">
+        <h2>Customer Reviews</h2>
+        <p>⭐⭐⭐⭐☆ - "Great quality and comfortable!" - Alex</p>
+        <p>⭐⭐⭐⭐⭐ - "Love the design, totally worth it!" - Emma</p>
+    </div>
+
+    <!-- Related Products Section -->
+    <div class="related-products">
+        <h2>Related Products</h2>
+        <div class="related-grid">
+            <div class="product-card">
+                <img src="image\re1.avif" alt="Related Product 1">
+                <p>Casual Sneakers - $69.99</p>
+            </div>
+            <div class="product-card">
+                <img src="image\re2.avif" alt="Related Product 2">
+                <p>Running Shoes - $89.99</p>
+            </div>
+            <div class="product-card">
+                <img src="image\re3.avif" alt="Related Product 3">
+                <p>Classic Sneakers - $74.99</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
